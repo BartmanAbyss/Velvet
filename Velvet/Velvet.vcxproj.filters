@@ -239,5 +239,6 @@
     <None Include="Assets\Shader\_InstancedShadowDepth.vert">
       <Filter>Shader\Instanced</Filter>
     </None>
+    <None Include="vcpkg.json" />
   </ItemGroup>
 </Project>

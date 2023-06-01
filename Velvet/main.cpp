@@ -169,7 +169,7 @@ public:
 		auto cloth = SpawnCloth(game, clothResolution, 2);
 		cloth->Initialize(glm::vec3(0, 2.5f, 0), glm::vec3(1.0));
 #ifdef SOLVER_CPU
-		auto clothObj = cloth->GetComponent<VtClothObject>();
+		auto clothObj = cloth->GetComponent<VtClothObjectCPU>();
 #else
 		auto clothObj = cloth->GetComponent<VtClothObjectGPU>();
 #endif

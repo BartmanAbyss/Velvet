@@ -275,7 +275,7 @@ namespace Velvet
 			auto prenderer = make_shared<ParticleGeometryRenderer>();
 
 #ifdef SOLVER_CPU
-			auto clothObj = make_shared<VtClothObject>(resolution);
+			auto clothObj = make_shared<VtClothObjectCPU>(resolution);
 #else
 			if (solver == nullptr)
 			{

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "builtin-baseline": "2f56fdad4bcf43c21ec6f952cf7b91c8c43c5c0d",
+    "name": "velvet",
+    "dependencies": [
+        "glfw3",
+        "glad",
+        "fmt",
+        "glm",
+        "assimp",
+        {
+            "name": "imgui",
+            "features": [ "opengl3-binding", "glfw-binding" ]
+        }
+    ]
+}

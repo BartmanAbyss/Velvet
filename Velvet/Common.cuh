@@ -2,7 +2,7 @@
 
 #include <tuple>
 
-#include <fmt/format.h>
+//#include <fmt/format.h>
 #include <glm/glm.hpp>
 
 #include <cuda_runtime.h> 
